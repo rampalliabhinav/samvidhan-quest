@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
 export default function SwipePage() {
-  const { completeSwipe, progress } = useGameProgress();
+  const { completeSwipe, progress, checkAndAwardBadges } = useGameProgress();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [lastAnswer, setLastAnswer] = useState<boolean | null>(null);
@@ -47,6 +47,7 @@ export default function SwipePage() {
 
     const correct = answer === currentStatement.isConstitutional;
     completeSwipe(correct);
+    checkAndAwardBadges();
     
     if (correct) {
       setStreak((prev) => prev + 1);
