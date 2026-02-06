@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
 export default function JudgePage() {
-  const { completeCase, progress } = useGameProgress();
+  const { completeCase, progress, checkAndAwardBadges } = useGameProgress();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showVerdict, setShowVerdict] = useState(false);
   const [userVerdict, setUserVerdict] = useState<string | null>(null);
@@ -24,6 +24,7 @@ export default function JudgePage() {
     setUserVerdict(verdict);
     setShowVerdict(true);
     completeCase(verdict === currentCase.verdict, currentCase.points);
+    checkAndAwardBadges();
   };
 
   const handleNextCase = () => {

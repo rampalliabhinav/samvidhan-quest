@@ -76,6 +76,11 @@ export function useGameProgress() {
           case 'topics':
             earned = prev.topicsExplored.length >= req.count;
             break;
+          case 'topic':
+            // For topic-specific badges, we'd need to track per-topic correct answers
+            // For now, check if the topic has been explored
+            earned = req.topic ? prev.topicsExplored.includes(req.topic) : false;
+            break;
           case 'streak':
             earned = prev.maxStreak >= req.count;
             break;
