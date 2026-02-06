@@ -32,9 +32,16 @@ export function BadgeDisplay({ name, description, icon, color, earned, className
   return (
     <div className={cn(
       'relative p-4 rounded-2xl transition-all',
-      earned ? 'bg-card shadow-card' : 'bg-muted/50 opacity-60',
+      earned ? 'bg-card shadow-card' : 'bg-muted/50',
       className
     )}>
+      {/* Lock badge indicator in corner */}
+      {!earned && (
+        <div className="absolute top-2 right-2 w-5 h-5 rounded-full bg-muted-foreground/20 flex items-center justify-center">
+          <Lock className="w-3 h-3 text-muted-foreground" />
+        </div>
+      )}
+      
       <div className={cn(
         'w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-3',
         earned 
@@ -57,12 +64,6 @@ export function BadgeDisplay({ name, description, icon, color, earned, className
       <p className="text-xs text-muted-foreground text-center">
         {description}
       </p>
-      
-      {!earned && (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Lock className="w-6 h-6 text-muted-foreground/50" />
-        </div>
-      )}
     </div>
   );
 }
