@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import badgesData from '@/data/badges.json';
 
 export interface GameProgress {
   totalPoints: number;
@@ -51,6 +52,53 @@ export function useGameProgress() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     }
   }, [progress, isLoaded]);
+
+  const checkAndAwardBadges = useCallback(() => {
+    setProgress((prev) => {
+      const newBadges: string[] = [];
+      
+      badgesData.badges.forEach((badge) => {
+        if (prev.earnedBadges.includes(badge.id)) return;
+        
+        const req = badge.requirement;
+        let earned = false;
+        
+        switch (req.type) {
+          case 'scenarios':
+            earned = prev.scenariosCompleted >= req.count;
+            break;
+          case 'swipes':
+            earned = prev.swipesCompleted >= req.count;
+            break;
+          case 'cases':
+            earned = prev.casesCompleted >= req.count;
+            break;
+          case 'topics':
+            earned = prev.topicsExplored.length >= req.count;
+            break;
+          case 'streak':
+            earned = prev.maxStreak >= req.count;
+            break;
+          case 'judgePoints':
+            earned = prev.judgePoints >= req.count;
+            break;
+        }
+        
+        if (earned) {
+          newBadges.push(badge.id);
+        }
+      });
+      
+      if (newBadges.length === 0) return prev;
+      
+      return {
+        ...prev,
+        earnedBadges: [...prev.earnedBadges, ...newBadges],
+        totalPoints: prev.totalPoints + (newBadges.length * 100),
+        lastPlayed: new Date().toISOString(),
+      };
+    });
+  }, []);
 
   const updateProgress = (updates: Partial<GameProgress>) => {
     setProgress((prev) => ({
@@ -158,6 +206,7 @@ export function useGameProgress() {
     completeCase,
     exploreTopic,
     earnBadge,
+    checkAndAwardBadges,
     resetProgress,
     getCurrentLevel,
     getNextLevelProgress,
