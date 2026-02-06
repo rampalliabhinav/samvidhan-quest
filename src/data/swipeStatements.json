@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "statement": "The government can arrest anyone without giving a reason.",
+    "isConstitutional": false,
+    "article": "Article 22",
+    "explanation": "Article 22 protects against arbitrary arrest. Every arrested person must be informed of the grounds of arrest and produced before a magistrate within 24 hours."
+  },
+  {
+    "id": 2,
+    "statement": "Every citizen has the right to vote after turning 18.",
+    "isConstitutional": true,
+    "article": "Article 326",
+    "explanation": "Article 326 establishes universal adult suffrage. Every citizen of India who is 18 years or older has the right to vote in elections."
+  },
+  {
+    "id": 3,
+    "statement": "Private companies can deny jobs based on a person's caste.",
+    "isConstitutional": false,
+    "article": "Article 15 & 17",
+    "explanation": "While Article 15 directly applies to the State, the spirit of equality extends through various laws. Caste-based discrimination is prohibited under the Constitution and related laws."
+  },
+  {
+    "id": 4,
+    "statement": "Citizens can peacefully assemble without weapons.",
+    "isConstitutional": true,
+    "article": "Article 19(1)(b)",
+    "explanation": "Article 19(1)(b) guarantees all citizens the right to assemble peaceably and without arms. This enables peaceful protests and gatherings."
+  },
+  {
+    "id": 5,
+    "statement": "The President can declare emergency and suspend all fundamental rights permanently.",
+    "isConstitutional": false,
+    "article": "Article 352-360",
+    "explanation": "While emergency provisions exist, Article 20 and 21 (right to life and personal liberty) cannot be suspended even during emergencies after the 44th Amendment."
+  },
+  {
+    "id": 6,
+    "statement": "Children between 6-14 years have a fundamental right to free education.",
+    "isConstitutional": true,
+    "article": "Article 21A",
+    "explanation": "Article 21A, added by the 86th Amendment in 2002, makes free and compulsory education a fundamental right for all children aged 6-14 years."
+  },
+  {
+    "id": 7,
+    "statement": "A state can make laws favoring one religion over another.",
+    "isConstitutional": false,
+    "article": "Article 25-28",
+    "explanation": "India is a secular state. Articles 25-28 guarantee freedom of religion and prohibit religious discrimination by the State."
+  },
+  {
+    "id": 8,
+    "statement": "Every person has the right to move freely throughout India.",
+    "isConstitutional": true,
+    "article": "Article 19(1)(d)",
+    "explanation": "Article 19(1)(d) grants all citizens the right to move freely throughout the territory of India, subject only to reasonable restrictions."
+  },
+  {
+    "id": 9,
+    "statement": "Forced labor, even if paid below minimum wage, is allowed.",
+    "isConstitutional": false,
+    "article": "Article 23",
+    "explanation": "Article 23 prohibits traffic in human beings, begar (forced labor), and other similar forms of forced labor. Any violation is punishable by law."
+  },
+  {
+    "id": 10,
+    "statement": "Citizens have the right to practice any profession or carry on any trade.",
+    "isConstitutional": true,
+    "article": "Article 19(1)(g)",
+    "explanation": "Article 19(1)(g) guarantees citizens the freedom to practice any profession, or carry on any occupation, trade, or business."
+  },
+  {
+    "id": 11,
+    "statement": "The government can impose censorship on all forms of media without any limits.",
+    "isConstitutional": false,
+    "article": "Article 19(1)(a)",
+    "explanation": "While reasonable restrictions exist under Article 19(2), blanket censorship violates freedom of speech and expression guaranteed under Article 19(1)(a)."
+  },
+  {
+    "id": 12,
+    "statement": "Every citizen can approach the Supreme Court directly if fundamental rights are violated.",
+    "isConstitutional": true,
+    "article": "Article 32",
+    "explanation": "Article 32 gives citizens the right to move the Supreme Court for enforcement of fundamental rights. Dr. Ambedkar called it the 'heart and soul' of the Constitution."
+  },
+  {
+    "id": 13,
+    "statement": "Untouchability in any form is punishable by law.",
+    "isConstitutional": true,
+    "article": "Article 17",
+    "explanation": "Article 17 abolishes untouchability and forbids its practice in any form. The Protection of Civil Rights Act, 1955 makes it a punishable offense."
+  },
+  {
+    "id": 14,
+    "statement": "Only men can inherit ancestral property under constitutional law.",
+    "isConstitutional": false,
+    "article": "Article 14 & 15",
+    "explanation": "The Constitution guarantees equality before law (Article 14) and prohibits discrimination based on sex (Article 15). Personal laws have been amended to ensure equal inheritance rights."
+  },
+  {
+    "id": 15,
+    "statement": "Minorities have the right to establish their own educational institutions.",
+    "isConstitutional": true,
+    "article": "Article 30",
+    "explanation": "Article 30 grants minorities (religious and linguistic) the right to establish and administer educational institutions of their choice."
+  }
+]

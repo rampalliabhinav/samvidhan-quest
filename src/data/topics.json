@@ -1,0 +1,294 @@
+{
+  "fundamentalRights": [
+    {
+      "id": "equality",
+      "title": "Right to Equality",
+      "articles": "Articles 14-18",
+      "icon": "Scale",
+      "color": "amber",
+      "summary": "Everyone is equal before the law. No discrimination based on religion, race, caste, sex, or place of birth.",
+      "details": [
+        {
+          "article": "Article 14",
+          "title": "Equality Before Law",
+          "explanation": "The State shall not deny any person equality before the law or equal protection of laws within India. This means everyone, from the Prime Minister to a common citizen, is subject to the same laws."
+        },
+        {
+          "article": "Article 15",
+          "title": "Prohibition of Discrimination",
+          "explanation": "No citizen can be discriminated against on grounds of religion, race, caste, sex, or place of birth. Special provisions can be made for women, children, and socially backward classes."
+        },
+        {
+          "article": "Article 16",
+          "title": "Equality in Public Employment",
+          "explanation": "All citizens have equal opportunity in government jobs. Reservations can be made for backward classes not adequately represented in services."
+        },
+        {
+          "article": "Article 17",
+          "title": "Abolition of Untouchability",
+          "explanation": "Untouchability is abolished and its practice in any form is forbidden. Enforcing any disability arising from untouchability is a punishable offense."
+        },
+        {
+          "article": "Article 18",
+          "title": "Abolition of Titles",
+          "explanation": "No title (except military or academic) can be conferred by the State. No Indian citizen can accept titles from foreign states."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Constitution of India - Part III",
+          "link": "https://legislative.gov.in/constitution-of-india/"
+        },
+        {
+          "type": "Explainer",
+          "title": "Understanding Right to Equality",
+          "link": "https://www.india.gov.in/my-government/constitution-india/constitution-india-full-text"
+        }
+      ]
+    },
+    {
+      "id": "freedom",
+      "title": "Right to Freedom",
+      "articles": "Articles 19-22",
+      "icon": "Bird",
+      "color": "blue",
+      "summary": "Freedom of speech, movement, assembly, association, and profession. Protection against arbitrary arrest.",
+      "details": [
+        {
+          "article": "Article 19",
+          "title": "Six Freedoms",
+          "explanation": "Citizens have freedom of speech and expression, peaceful assembly, forming associations, moving freely in India, residing anywhere, and practicing any profession. These come with reasonable restrictions."
+        },
+        {
+          "article": "Article 20",
+          "title": "Protection Against Conviction",
+          "explanation": "No one can be punished for an act that wasn't illegal when committed. No one can be tried twice for the same offense. No one can be forced to be a witness against themselves."
+        },
+        {
+          "article": "Article 21",
+          "title": "Right to Life and Liberty",
+          "explanation": "No person can be deprived of life or personal liberty except according to procedure established by law. This has been expanded to include right to live with dignity, privacy, and clean environment."
+        },
+        {
+          "article": "Article 22",
+          "title": "Protection Against Arrest",
+          "explanation": "Every arrested person must be told why they're arrested, allowed to consult a lawyer, and produced before a magistrate within 24 hours."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Fundamental Rights Overview",
+          "link": "https://legislative.gov.in/constitution-of-india/"
+        },
+        {
+          "type": "Explainer",
+          "title": "Article 21 - Heart of the Constitution",
+          "link": "https://www.india.gov.in/my-government/constitution-india"
+        }
+      ]
+    },
+    {
+      "id": "exploitation",
+      "title": "Right Against Exploitation",
+      "articles": "Articles 23-24",
+      "icon": "ShieldCheck",
+      "color": "red",
+      "summary": "Prohibition of human trafficking, forced labor, and child labor in hazardous industries.",
+      "details": [
+        {
+          "article": "Article 23",
+          "title": "Prohibition of Human Trafficking",
+          "explanation": "Traffic in human beings and begar (forced labor without payment) is prohibited. Any violation is punishable by law. This protects against modern forms of slavery and bonded labor."
+        },
+        {
+          "article": "Article 24",
+          "title": "Child Labor Prohibition",
+          "explanation": "No child below 14 years can be employed in any factory, mine, or hazardous employment. This protects children's right to education and healthy development."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Child Labor Laws in India",
+          "link": "https://labour.gov.in/childlabour/about-child-labour"
+        },
+        {
+          "type": "Explainer",
+          "title": "Understanding Bonded Labor",
+          "link": "https://www.india.gov.in/my-government/constitution-india"
+        }
+      ]
+    },
+    {
+      "id": "religion",
+      "title": "Freedom of Religion",
+      "articles": "Articles 25-28",
+      "icon": "Heart",
+      "color": "purple",
+      "summary": "Freedom to practice, profess, and propagate any religion. India is a secular nation.",
+      "details": [
+        {
+          "article": "Article 25",
+          "title": "Freedom of Conscience",
+          "explanation": "All persons have the right to freely profess, practice, and propagate religion, subject to public order, morality, and health."
+        },
+        {
+          "article": "Article 26",
+          "title": "Religious Affairs Management",
+          "explanation": "Every religious denomination can establish and maintain institutions, manage religious affairs, own property, and administer it according to law."
+        },
+        {
+          "article": "Article 27",
+          "title": "No Religious Tax",
+          "explanation": "No person can be compelled to pay taxes for promoting any particular religion."
+        },
+        {
+          "article": "Article 28",
+          "title": "Religious Instruction in Schools",
+          "explanation": "No religious instruction in fully state-funded schools. Others can provide it, but no one can be forced to attend such instruction."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Secularism in Indian Constitution",
+          "link": "https://legislative.gov.in/constitution-of-india/"
+        },
+        {
+          "type": "Explainer",
+          "title": "India's Secular Framework",
+          "link": "https://www.india.gov.in/my-government/constitution-india"
+        }
+      ]
+    },
+    {
+      "id": "cultural",
+      "title": "Cultural & Educational Rights",
+      "articles": "Articles 29-30",
+      "icon": "BookOpen",
+      "color": "green",
+      "summary": "Protection of minorities' culture, language, and right to establish educational institutions.",
+      "details": [
+        {
+          "article": "Article 29",
+          "title": "Protection of Interests of Minorities",
+          "explanation": "Any section of citizens with distinct language, script, or culture has the right to conserve it. No citizen can be denied admission to educational institutions on grounds of religion, race, caste, or language."
+        },
+        {
+          "article": "Article 30",
+          "title": "Minorities' Educational Rights",
+          "explanation": "All minorities (religious and linguistic) have the right to establish and administer educational institutions of their choice. The State cannot discriminate against them in granting aid."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Minority Rights in India",
+          "link": "https://legislative.gov.in/constitution-of-india/"
+        },
+        {
+          "type": "Explainer",
+          "title": "Understanding Minority Protections",
+          "link": "https://www.india.gov.in/my-government/constitution-india"
+        }
+      ]
+    },
+    {
+      "id": "remedies",
+      "title": "Right to Constitutional Remedies",
+      "articles": "Article 32",
+      "icon": "Gavel",
+      "color": "orange",
+      "summary": "The right to approach Supreme Court if fundamental rights are violated. The soul of the Constitution.",
+      "details": [
+        {
+          "article": "Article 32",
+          "title": "Right to Move Supreme Court",
+          "explanation": "Citizens can directly approach the Supreme Court if their fundamental rights are violated. The Court can issue writs like Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo Warranto. Dr. Ambedkar called this the 'heart and soul' of the Constitution."
+        }
+      ],
+      "resources": [
+        {
+          "type": "Official",
+          "title": "Supreme Court of India",
+          "link": "https://main.sci.gov.in/"
+        },
+        {
+          "type": "Explainer",
+          "title": "Types of Writs Explained",
+          "link": "https://www.india.gov.in/my-government/constitution-india"
+        }
+      ]
+    }
+  ],
+  "fundamentalDuties": [
+    {
+      "id": "duty-constitution",
+      "title": "Respect the Constitution",
+      "icon": "FileText",
+      "description": "To abide by the Constitution and respect its ideals, institutions, the National Flag, and the National Anthem."
+    },
+    {
+      "id": "duty-freedom",
+      "title": "Cherish Freedom Struggle",
+      "icon": "Flag",
+      "description": "To cherish and follow the noble ideals that inspired the national struggle for freedom."
+    },
+    {
+      "id": "duty-unity",
+      "title": "Uphold Unity",
+      "icon": "Users",
+      "description": "To uphold and protect the sovereignty, unity, and integrity of India."
+    },
+    {
+      "id": "duty-defend",
+      "title": "Defend the Country",
+      "icon": "Shield",
+      "description": "To defend the country and render national service when called upon to do so."
+    },
+    {
+      "id": "duty-harmony",
+      "title": "Promote Harmony",
+      "icon": "HeartHandshake",
+      "description": "To promote harmony and brotherhood among all people of India, transcending religious, linguistic, and regional diversities."
+    },
+    {
+      "id": "duty-heritage",
+      "title": "Preserve Heritage",
+      "icon": "Landmark",
+      "description": "To value and preserve the rich heritage of our composite culture."
+    },
+    {
+      "id": "duty-environment",
+      "title": "Protect Environment",
+      "icon": "TreePine",
+      "description": "To protect and improve the natural environment including forests, lakes, rivers, and wildlife."
+    },
+    {
+      "id": "duty-scientific",
+      "title": "Scientific Temper",
+      "icon": "Lightbulb",
+      "description": "To develop scientific temper, humanism, and the spirit of inquiry and reform."
+    },
+    {
+      "id": "duty-property",
+      "title": "Safeguard Public Property",
+      "icon": "Building",
+      "description": "To safeguard public property and to abjure violence."
+    },
+    {
+      "id": "duty-excellence",
+      "title": "Strive for Excellence",
+      "icon": "Star",
+      "description": "To strive towards excellence in all spheres of individual and collective activity."
+    },
+    {
+      "id": "duty-education",
+      "title": "Provide Education",
+      "icon": "GraduationCap",
+      "description": "To provide opportunities for education to children between 6-14 years (added by 86th Amendment)."
+    }
+  ]
+}

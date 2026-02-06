@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Protestor",
+    "description": "Ravi, a college student, stood silently outside the university gate holding a blank placard. He didn't shout slogans or block anyone. The university suspended him for 'creating disturbance'. Ravi argues his peaceful protest is protected.",
+    "verdict": "constitutional",
+    "article": "Article 19(1)(a) & (b)",
+    "explanation": "Silent protest is a form of expression protected under Article 19(1)(a). Combined with the right to peaceful assembly under Article 19(1)(b), Ravi's actions were constitutional. The suspension was unjustified.",
+    "whyItMatters": "Freedom of expression includes non-verbal forms of protest. Citizens can peacefully dissent without facing arbitrary punishment.",
+    "points": 100
+  },
+  {
+    "id": 2,
+    "title": "The Denied Tenant",
+    "description": "Priya, a single working woman, was refused a rental apartment by the landlord who said, 'We don't rent to single women - it's against our family values.' Priya claims this is discrimination.",
+    "verdict": "unconstitutional",
+    "article": "Article 15",
+    "explanation": "Article 15 prohibits discrimination on grounds of sex. While fundamental rights primarily apply against the State, various housing laws and the spirit of equality extend these protections against discriminatory practices.",
+    "whyItMatters": "Discrimination based on gender in housing affects women's independence and dignity. Constitutional values must permeate society.",
+    "points": 120
+  },
+  {
+    "id": 3,
+    "title": "The Child Worker",
+    "description": "A 12-year-old boy works at a local tea stall. The owner says, 'His family needs money, and he's learning a skill.' The boy works 8 hours daily and doesn't attend school.",
+    "verdict": "unconstitutional",
+    "article": "Article 24 & 21A",
+    "explanation": "Article 24 prohibits employment of children below 14 in hazardous occupations. Article 21A guarantees right to education for children aged 6-14. Both rights are being violated here.",
+    "whyItMatters": "Child labor robs children of education and childhood. The Constitution prioritizes children's welfare over economic arguments.",
+    "points": 100
+  },
+  {
+    "id": 4,
+    "title": "The Journalist's Source",
+    "description": "A journalist publishes a story exposing government corruption based on leaked documents. The government demands she reveal her source, threatening arrest. She refuses, citing press freedom.",
+    "verdict": "constitutional",
+    "article": "Article 19(1)(a)",
+    "explanation": "Freedom of press is implicit in Article 19(1)(a). Protection of journalistic sources is essential for press freedom and public interest reporting. Courts have upheld this principle.",
+    "whyItMatters": "A free press is democracy's watchdog. Protecting sources enables journalists to expose wrongdoing without fear.",
+    "points": 150
+  },
+  {
+    "id": 5,
+    "title": "The Religious Loudspeaker",
+    "description": "A temple uses loudspeakers at 4 AM daily for prayers. Nearby residents complain about noise pollution and disturbed sleep. The temple claims it's their religious right.",
+    "verdict": "unconstitutional",
+    "article": "Article 25",
+    "explanation": "While Article 25 guarantees freedom of religion, it's subject to public order, morality, and health. Using loudspeakers causing noise pollution violates others' right to peaceful living under Article 21.",
+    "whyItMatters": "Religious freedom doesn't include the right to disturb others. Rights must be balanced with responsibilities to the community.",
+    "points": 120
+  },
+  {
+    "id": 6,
+    "title": "The Quota Question",
+    "description": "A state government reserves 70% of government jobs for backward classes. A general category candidate challenges this, arguing it leaves too few opportunities for others.",
+    "verdict": "unconstitutional",
+    "article": "Article 16(4)",
+    "explanation": "While Article 16(4) allows reservation for backward classes, the Supreme Court (Indra Sawhney case) capped total reservation at 50%. Exceeding this limit violates equality principles.",
+    "whyItMatters": "Reservation promotes social justice but must balance with equality of opportunity. The 50% ceiling maintains this balance.",
+    "points": 150
+  },
+  {
+    "id": 7,
+    "title": "The Detained Activist",
+    "description": "An activist critical of the government is arrested and held for 15 days without being told why or being produced before a magistrate. Police say it's for 'national security'.",
+    "verdict": "unconstitutional",
+    "article": "Article 22",
+    "explanation": "Article 22 mandates that every arrested person must be informed of grounds of arrest and produced before a magistrate within 24 hours. Vague 'national security' claims don't override this protection.",
+    "whyItMatters": "Protection against arbitrary detention is fundamental to liberty. Even suspected criminals deserve due process.",
+    "points": 130
+  },
+  {
+    "id": 8,
+    "title": "The School's Dress Code",
+    "description": "A government school bans students from wearing any religious symbols or attire, including hijabs, turbans, and religious threads. Students from multiple communities protest this uniform policy.",
+    "verdict": "unconstitutional",
+    "article": "Article 25",
+    "explanation": "Article 25 protects religious practices. While reasonable uniform policies are allowed, blanket bans on all religious symbols disproportionately affect religious freedom. Courts examine if restrictions are reasonable.",
+    "whyItMatters": "Religious identity is deeply personal. Policies must balance institutional needs with individual religious freedom.",
+    "points": 140
+  },
+  {
+    "id": 9,
+    "title": "The Minimum Wage Worker",
+    "description": "A construction company pays workers ₹150/day when the state minimum wage is ₹350/day. The company argues workers 'agreed' to this wage and are free to leave if unhappy.",
+    "verdict": "unconstitutional",
+    "article": "Article 23 & 21",
+    "explanation": "Paying below minimum wage constitutes economic exploitation under Article 23. Article 21's right to life includes the right to livelihood with dignity. 'Consent' under economic duress isn't valid consent.",
+    "whyItMatters": "The Constitution protects workers from exploitation. Economic vulnerability doesn't strip away fundamental protections.",
+    "points": 110
+  },
+  {
+    "id": 10,
+    "title": "The Viral Video",
+    "description": "Someone posts a video criticizing a political leader using satire and humor. The government orders the video removed and files a case against the creator for 'hurting sentiments'.",
+    "verdict": "constitutional",
+    "article": "Article 19(1)(a)",
+    "explanation": "Political satire is protected speech under Article 19(1)(a). Criticism of public figures, even through humor, is essential in a democracy. 'Hurt sentiments' alone doesn't justify restricting speech.",
+    "whyItMatters": "Democracy thrives on open debate and criticism. Satire has historically been a powerful tool for political commentary.",
+    "points": 130
+  }
+]
