@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "situation": "A student is punished by their college for peacefully expressing their political opinions on social media.",
+    "question": "Which constitutional right is being violated?",
+    "options": ["Freedom of Speech", "Right to Equality", "Right to Religion", "Right against Exploitation"],
+    "correct": "Freedom of Speech",
+    "article": "Article 19(1)(a)",
+    "explanation": "Article 19(1)(a) guarantees every citizen the freedom of speech and expression. This includes the right to express opinions peacefully, including political views on social media."
+  },
+  {
+    "id": 2,
+    "situation": "A person is denied entry to a temple because of their caste.",
+    "question": "Which fundamental right protects against this discrimination?",
+    "options": ["Right to Freedom", "Right to Equality", "Cultural Rights", "Right to Property"],
+    "correct": "Right to Equality",
+    "article": "Article 15 & 17",
+    "explanation": "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. Article 17 abolishes 'untouchability' and forbids its practice in any form."
+  },
+  {
+    "id": 3,
+    "situation": "A factory owner forces workers, including children under 14, to work in hazardous conditions.",
+    "question": "Which right is being violated?",
+    "options": ["Right to Education", "Right against Exploitation", "Right to Freedom", "Right to Equality"],
+    "correct": "Right against Exploitation",
+    "article": "Article 24",
+    "explanation": "Article 24 prohibits employment of children below 14 years in any factory, mine, or hazardous employment. This protects children from exploitation."
+  },
+  {
+    "id": 4,
+    "situation": "A government job application requires candidates to be of a specific religion.",
+    "question": "Which constitutional principle is violated?",
+    "options": ["Secularism", "Right to Equality", "Freedom of Religion", "Right to Work"],
+    "correct": "Right to Equality",
+    "article": "Article 16",
+    "explanation": "Article 16 guarantees equality of opportunity in public employment. No citizen can be discriminated against on grounds of religion, race, caste, sex, descent, place of birth, or residence."
+  },
+  {
+    "id": 5,
+    "situation": "A person is arrested and kept in jail for a week without being informed of the charges against them.",
+    "question": "Which right protects against this?",
+    "options": ["Right to Freedom", "Right to Life", "Right to Equality", "Right against Exploitation"],
+    "correct": "Right to Freedom",
+    "article": "Article 22",
+    "explanation": "Article 22 provides protection against arbitrary arrest. Every arrested person must be informed of the grounds of arrest and has the right to consult a lawyer."
+  },
+  {
+    "id": 6,
+    "situation": "A private school refuses admission to a child from a low-income family despite having vacant seats.",
+    "question": "Which right ensures education for all children?",
+    "options": ["Right to Education", "Right to Equality", "Right to Freedom", "Cultural Rights"],
+    "correct": "Right to Education",
+    "article": "Article 21A",
+    "explanation": "Article 21A (added by 86th Amendment) makes education a fundamental right for children aged 6-14. The RTE Act mandates 25% reservation in private schools for disadvantaged children."
+  },
+  {
+    "id": 7,
+    "situation": "The government passes a law forcing everyone to follow a single religion.",
+    "question": "Which fundamental right does this violate?",
+    "options": ["Right to Equality", "Freedom of Religion", "Right to Freedom", "Cultural Rights"],
+    "correct": "Freedom of Religion",
+    "article": "Article 25",
+    "explanation": "Article 25 guarantees freedom of conscience and the right to freely profess, practice, and propagate religion. India is a secular nation where citizens can follow any religion."
+  },
+  {
+    "id": 8,
+    "situation": "A person's property is seized by the government without any legal procedure or compensation.",
+    "question": "Which constitutional protection applies here?",
+    "options": ["Right to Property", "Right to Life", "Right to Equality", "Right to Freedom"],
+    "correct": "Right to Life",
+    "article": "Article 21 & 300A",
+    "explanation": "Article 300A states that no person shall be deprived of property except by authority of law. While not a fundamental right, it's a constitutional right requiring due legal process."
+  },
+  {
+    "id": 9,
+    "situation": "A woman is paid less than her male colleagues for doing the same work.",
+    "question": "Which right addresses this inequality?",
+    "options": ["Right to Work", "Right to Equality", "Right to Freedom", "Right against Exploitation"],
+    "correct": "Right to Equality",
+    "article": "Article 14 & 15",
+    "explanation": "Article 14 guarantees equality before law, and Article 15 prohibits discrimination based on sex. Equal pay for equal work is a constitutional mandate."
+  },
+  {
+    "id": 10,
+    "situation": "A minority community wants to establish and run its own educational institution to preserve its culture.",
+    "question": "Which right protects this?",
+    "options": ["Right to Education", "Cultural and Educational Rights", "Freedom of Religion", "Right to Freedom"],
+    "correct": "Cultural and Educational Rights",
+    "article": "Article 30",
+    "explanation": "Article 30 gives minorities the right to establish and administer educational institutions of their choice. This helps preserve distinct languages, scripts, and cultures."
+  }
+]

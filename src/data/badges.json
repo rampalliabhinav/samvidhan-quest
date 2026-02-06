@@ -1,0 +1,98 @@
+{
+  "badges": [
+    {
+      "id": "rights-defender",
+      "name": "Rights Defender",
+      "description": "Complete 5 Scenario Challenges",
+      "icon": "Shield",
+      "requirement": { "type": "scenarios", "count": 5 },
+      "color": "amber"
+    },
+    {
+      "id": "equality-champion",
+      "name": "Equality Champion",
+      "description": "Get 10 correct answers about Right to Equality",
+      "icon": "Scale",
+      "requirement": { "type": "topic", "topic": "equality", "count": 10 },
+      "color": "blue"
+    },
+    {
+      "id": "freedom-fighter",
+      "name": "Freedom Fighter",
+      "description": "Complete 10 Swipe Challenges",
+      "icon": "Bird",
+      "requirement": { "type": "swipes", "count": 10 },
+      "color": "green"
+    },
+    {
+      "id": "justice-seeker",
+      "name": "Justice Seeker",
+      "description": "Judge 5 cases correctly",
+      "icon": "Gavel",
+      "requirement": { "type": "cases", "count": 5 },
+      "color": "purple"
+    },
+    {
+      "id": "constitution-scholar",
+      "name": "Constitution Scholar",
+      "description": "Explore all fundamental rights topics",
+      "icon": "BookOpen",
+      "requirement": { "type": "topics", "count": 6 },
+      "color": "orange"
+    },
+    {
+      "id": "streak-master",
+      "name": "Streak Master",
+      "description": "Get a 5-answer streak in Swipe Challenge",
+      "icon": "Flame",
+      "requirement": { "type": "streak", "count": 5 },
+      "color": "red"
+    },
+    {
+      "id": "wise-judge",
+      "name": "Wise Judge",
+      "description": "Reach 500 points in Judge the Case",
+      "icon": "Crown",
+      "requirement": { "type": "judgePoints", "count": 500 },
+      "color": "yellow"
+    },
+    {
+      "id": "quick-thinker",
+      "name": "Quick Thinker",
+      "description": "Complete 20 Swipe Challenges",
+      "icon": "Zap",
+      "requirement": { "type": "swipes", "count": 20 },
+      "color": "cyan"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "Citizen",
+      "minPoints": 0,
+      "icon": "User",
+      "description": "You're just starting your constitutional journey"
+    },
+    {
+      "id": 2,
+      "name": "Aware Citizen",
+      "minPoints": 200,
+      "icon": "Eye",
+      "description": "You understand basic constitutional rights"
+    },
+    {
+      "id": 3,
+      "name": "Constitution Guardian",
+      "minPoints": 500,
+      "icon": "Shield",
+      "description": "You can defend constitutional values"
+    },
+    {
+      "id": 4,
+      "name": "Samvidhan Master",
+      "minPoints": 1000,
+      "icon": "Crown",
+      "description": "You've mastered the Constitution!"
+    }
+  ]
+}
