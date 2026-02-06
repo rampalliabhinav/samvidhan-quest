@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Layout } from '@/components/Layout';
+import { CoinReward } from '@/components/CoinReward';
 import { useGameProgress } from '@/hooks/useGameProgress';
 import swipeData from '@/data/swipeStatements.json';
 import { ArrowLeft, Flame, Timer, CheckCircle, XCircle, BookOpen } from 'lucide-react';
@@ -14,6 +15,7 @@ export default function SwipePage() {
   const [streak, setStreak] = useState(0);
   const [timeLeft, setTimeLeft] = useState(15);
   const [isTimerActive, setIsTimerActive] = useState(true);
+  const [showCoinReward, setShowCoinReward] = useState(false);
 
   const shuffledStatements = useMemo(() => {
     return [...swipeData].sort(() => Math.random() - 0.5);
@@ -51,6 +53,8 @@ export default function SwipePage() {
     
     if (correct) {
       setStreak((prev) => prev + 1);
+      setShowCoinReward(true);
+      setTimeout(() => setShowCoinReward(false), 1500);
     } else {
       setStreak(0);
     }
@@ -66,6 +70,7 @@ export default function SwipePage() {
 
   return (
     <Layout>
+      <CoinReward points={30} show={showCoinReward} />
       <div className="p-4 md:p-8 max-w-2xl mx-auto">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

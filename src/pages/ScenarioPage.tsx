@@ -3,6 +3,7 @@ import { Layout } from '@/components/Layout';
 import { FeedbackCard } from '@/components/FeedbackCard';
 import { ProgressBar } from '@/components/ProgressBar';
 import { ScenarioResults } from '@/components/ScenarioResults';
+import { CoinReward } from '@/components/CoinReward';
 import { useGameProgress } from '@/hooks/useGameProgress';
 import scenariosData from '@/data/scenarios.json';
 import { ArrowLeft, Target, Zap } from 'lucide-react';
@@ -22,6 +23,7 @@ export default function ScenarioPage() {
   const [roundCorrect, setRoundCorrect] = useState(0);
   const [roundPoints, setRoundPoints] = useState(0);
   const [roundStreak, setRoundStreak] = useState(0);
+  const [showCoinReward, setShowCoinReward] = useState(false);
   const [bestRoundStreak, setBestRoundStreak] = useState(0);
 
   const shuffledScenarios = useMemo(() => {
@@ -49,6 +51,8 @@ export default function ScenarioPage() {
         setBestRoundStreak((best) => Math.max(best, newStreak));
         return newStreak;
       });
+      setShowCoinReward(true);
+      setTimeout(() => setShowCoinReward(false), 1500);
     } else {
       setRoundStreak(0);
     }
@@ -96,6 +100,7 @@ export default function ScenarioPage() {
 
   return (
     <Layout>
+      <CoinReward points={50} show={showCoinReward} />
       <div className="p-4 md:p-8 max-w-2xl mx-auto">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">

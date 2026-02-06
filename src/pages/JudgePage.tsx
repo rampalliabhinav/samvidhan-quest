@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Layout } from '@/components/Layout';
+import { CoinReward } from '@/components/CoinReward';
 import { useGameProgress } from '@/hooks/useGameProgress';
 import casesData from '@/data/cases.json';
 import { ArrowLeft, Gavel, Scale, Star, BookOpen, AlertCircle } from 'lucide-react';
@@ -11,6 +12,7 @@ export default function JudgePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showVerdict, setShowVerdict] = useState(false);
   const [userVerdict, setUserVerdict] = useState<string | null>(null);
+  const [showCoinReward, setShowCoinReward] = useState(false);
 
   const shuffledCases = useMemo(() => {
     return [...casesData].sort(() => Math.random() - 0.5);
@@ -23,8 +25,14 @@ export default function JudgePage() {
     if (showVerdict) return;
     setUserVerdict(verdict);
     setShowVerdict(true);
-    completeCase(verdict === currentCase.verdict, currentCase.points);
+    const correct = verdict === currentCase.verdict;
+    completeCase(correct, currentCase.points);
     checkAndAwardBadges();
+    
+    if (correct) {
+      setShowCoinReward(true);
+      setTimeout(() => setShowCoinReward(false), 1500);
+    }
   };
 
   const handleNextCase = () => {
@@ -35,6 +43,7 @@ export default function JudgePage() {
 
   return (
     <Layout>
+      <CoinReward points={currentCase.points} show={showCoinReward} />
       <div className="p-4 md:p-8 max-w-2xl mx-auto">
         {/* Header */}
         <div className="flex items-center gap-4 mb-6">
